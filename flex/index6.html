@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html,body {
+            height:100%;
+            width: 100%;
+        }
+        .parent {
+            margin:auto;
+            border:1px solid darkmagenta;
+            display: flex;
+            flex-direction:row;
+            justify-content:space-between;
+            width:50%;
+            height:100%;
+            flex-wrap:wrap;
+            align-content: space-between;
+        }
+        .item {
+            height: 50px;
+            background-color: lightblue;
+            border:1px solid darkmagenta;
+            flex:1;
+        }
+    </style>
+</head>
+<body>
+    <section class='parent'>
+        <div class='item' >固定左边 -平均1/3</div>
+        <div class='item' >当中元素 -平均1/3</div>
+        <div class='item'>固定右边 -平均1/3</div>
+
+    </section>
+</body>
+</html>

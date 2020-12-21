@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html,body {
+            height:100%;
+            width: 100%;
+        }
+        .parent {
+            margin:auto;
+            border:1px solid darkmagenta;
+            display: flex;
+            flex-direction:row;
+            justify-content:space-between;
+            width:50%;
+            height:100%;
+            flex-wrap:wrap;
+            align-content: space-between;
+
+        }
+        .item {
+            width: 250px;
+            height: 50px;
+            background-color: lightblue;
+            border:1px solid darkmagenta;
+        }
+    </style>
+</head>
+<body>
+    <section class='parent'>
+        <div class='item' style='width: 50px;'>固定左边</div>
+        <div class='item' style='flex:1'>当中元素,撑满并且自适应 ，用的flex:1  表示在剩余空间中，占据的份数</div>
+        <div class='item' style='width: 50px;'>固定右边</div>
+
+    </section>
+</body>
+</html>
