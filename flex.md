@@ -1,3 +1,6 @@
+### 学习进度：https://www.bilibili.com/video/BV1N54y1i7dG?p=20
+
+
 ### flex 父容器的属性
 display:flex; 布局方式
 flex-direction:row,column  设定主轴方向
